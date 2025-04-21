@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: dealsrin-api
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: dealsrin
+  security:
+    user:
+      name: admin
+      password: admin
+logging:
+  level:
+    org.springframework.security: DEBUG
